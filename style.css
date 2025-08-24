@@ -76,27 +76,27 @@ p{
 }
 label.first-color {
   margin-left: 500px;
-  background-image: url("./Images/color1.jpg");
+  background-image: url("./color1.jpg");
 }
 label.color-2 {
-  background-image: url("./Images/color2.jpg");
+  background-image: url("./color2.jpg");
 }
 label.color-3 {
-  background-image: url("./Images/color3.jpg");
+  background-image: url("./color3.jpg");
 }
 label.color-4 {
-  background-image: url("./Images/color4.jpg");
+  background-image: url("./color4.jpg");
 }
 label.color-5 {
-  background-image: url("./Images/color5.jpg");
+  background-image: url("./color5.jpg");
 }
 label.color-6 {
-  background-image: url("./Images/color6.jpg");
+  background-image: url("./color6.jpg");
 }
 .img-wrap {
   height: 410px;
   width: 500px;
-  background-image: url(./Images/chair1.png);
+  background-image: url(./chair1.png);
   position: absolute;
   top: 100px;
   left: 0;
@@ -114,35 +114,35 @@ label.color-6 {
   animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 .img-wrap.chair-2 {
-  background-image: url("./Images/chair2.png");
+  background-image: url("./chair2.png");
 }
 .for-color-2:checked ~ .img-wrap.chair-2 {
   opacity: 1;
   animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 .img-wrap.chair-3 {
-  background-image: url("./Images/chair3.png");
+  background-image: url("./chair3.png");
 }
 .for-color-3:checked ~ .img-wrap.chair-3 {
   opacity: 1;
   animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 .img-wrap.chair-4 {
-  background-image: url("./Images/chair4.png");
+  background-image: url("./chair4.png");
 }
 .for-color-4:checked ~ .img-wrap.chair-4 {
   opacity: 1;
   animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 .img-wrap.chair-5 {
-  background-image: url("./Images/chair5.png");
+  background-image: url("./chair5.png");
 }
 .for-color-5:checked ~ .img-wrap.chair-5 {
   opacity: 1;
   animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 .img-wrap.chair-6 {
-  background-image: url("./Images/chair6.png");
+  background-image: url("./chair6.png");
 }
 .for-color-6:checked ~ .img-wrap.chair-6 {
   opacity: 1;
@@ -382,3 +382,4 @@ h5 {
 .forColor-6:checked ~ .info-wrap .btn:before {
   background-color: #5d6160;
 }
+
